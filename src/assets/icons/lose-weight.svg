@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Assets/icons/colored/icon-negative-dynamic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="5.40123457%" x2="100%" y2="94.5987654%" id="linearGradient-1">
+            <stop stop-color="#03A9F4" offset="0%"></stop>
+            <stop stop-color="#0288D1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.835440751%" y1="0.835440751%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F7681C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Assets/icons/colored/icon-negative-dynamic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-negative-dynamic" transform="translate(6.000000, 7.000000)" fill-rule="nonzero">
+            <path d="M13,15 L23,15 L23,35 L13,35 L13,15 Z M0,1 L10,1 L10,35 L0,35 L0,1 Z M26,23 L36,23 L36,35 L26,35 L26,23 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <g id="Group" transform="translate(21.000000, 0.000000)" fill="url(#linearGradient-2)">
+                <path d="M3.39364311,0.565391233 L11.4132654,8.58539123 L15,5 L15,15 L5,15 L8.58526535,11.4133912 L0.565265351,3.39386772 L3.39364311,0.565391233 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

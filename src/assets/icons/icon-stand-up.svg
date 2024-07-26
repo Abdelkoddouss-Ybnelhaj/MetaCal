@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="icon-stand-up-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#99B4BF"/>
+      <stop offset="100%" stop-color="#607D8B"/>
+    </linearGradient>
+    <linearGradient id="icon-stand-up-b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFDC84"/>
+      <stop offset="100%" stop-color="#FFB74D"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" transform="translate(25.5 6)">
+    <path fill="url(#icon-stand-up-a)" d="M22.5,28.002 C22.5,31.1775 22.5,39.504 22.5,39.504 L18.75,42.06 L17.5005,59.952 L5.001,59.952 L3.75,42.06 L0,39.504 C0,39.504 0,34.3545 0,28.002 C0,21.6495 5.037,16.5 11.25,16.5 C17.463,16.5 22.5,21.6495 22.5,28.002 Z"/>
+    <circle cx="11.25" cy="6.75" r="6.75" fill="url(#icon-stand-up-b)"/>
+  </g>
+</svg>
