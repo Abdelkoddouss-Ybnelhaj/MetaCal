@@ -13,3 +13,14 @@
 body{
     font-family: "Inter Tight", sans-serif;
 }
+
+
+.Nav {
+    @apply lg:flex md:flex w-48 justify-between text-gray-700 hidden;
+}
+.Nav-toogle{
+    @apply flex absolute right-0 top-14 flex-col text-gray-700 w-40 ;
+}
+.Nav-toogle span{
+    @apply border-2 py-2 text-center bg-gray-50;
+}
