@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Diet from '../assets/images/Diet.png'
 import { IoMdArrowForward } from "react-icons/io";
 import {redirect} from '../utils/Helper'
+import axios from 'axios';
 
 function Home() {
+  useEffect(() => {
+  }, []);
+
+
   return (
     <div className='lg:pt-10 md:pt-10 pt-2 flex justify-between sm:justify-center'>
       <div className='pt-20 lg:w-1/2 md:w-1/2 sm:w-full'>
@@ -15,7 +20,7 @@ function Home() {
         <div className='flex pt-10 items-center'>
         <span className= {`cursor-pointer lg:text-md md:text-sm text-xs py-2 text-white bg-primaryColor lg:px-10 md:px-5 sm:px-5 px-3 rounded`} onClick={()=> redirect('Calories')}>Get Started</span>
           <div className='flex items-center hover:text-primaryColor duration-200  ' onClick={()=> redirect('Meals')}>
-            <span className='pl-5 cursor-pointer pr-3 lg:text-md md:text-sm text-xs'>Explore Nutrition Plans </span>
+            <span className='pl-5 cursor-pointer pr-3 lg:text-md md:text-sm text-xs'>Explore Nutrition Plans Abdo </span>
             <IoMdArrowForward size="18"/>
           </div>
         </div>
