@@ -1,22 +1,23 @@
-# Stage 1: Build the React app
-FROM node:20-alpine AS builder
+# Base image
+FROM node:18-alpine
 
-WORKDIR /app
+# Make folder to put our files in
+RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/app/frontend
 
-# Copy package.json and install dependencies
-COPY package.json package-lock.json ./
-RUN npm install --frozen-lockfile
+# Set working directory so that all
+# subsequent command runs in this folder
+WORKDIR /usr/src/app/frontend
 
-# Copy the rest of the application files and build
+# Copy package json and install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy our app
 COPY . .
-RUN npm run build
 
-# Stage 2: Serve the React app using Nginx
-FROM nginx:1.23-alpine AS production
+# Expose port to access server
+EXPOSE 3000
 
-# Copy the custom nginx.conf file to the container
-#COPY .docker/nginx.conf /etc/nginx/nginx.conf
-
-# Remove default Nginx config and copy our own
-RUN rm -rf /usr/share/nginx/html/*
-COPY --from=builder /app/build /usr/share/nginx/html
+# Command to run our app
+CMD [ "npm", "start" ]
