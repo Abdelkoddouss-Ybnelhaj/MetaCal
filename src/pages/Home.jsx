@@ -19,7 +19,7 @@ function Home() {
         <div className='flex pt-10 items-center'>
         <span className= {`cursor-pointer lg:text-md md:text-sm text-xs py-2 text-white bg-primaryColor lg:px-10 md:px-5 sm:px-5 px-3 rounded`} onClick={()=> redirect('Calories')}>Get Started</span>
           <div className='flex items-center hover:text-primaryColor duration-200  ' onClick={()=> redirect('Meals')}>
-            <span className='pl-5 cursor-pointer pr-3 lg:text-md md:text-sm text-xs'>Explore Nutrition Plans </span>
+            <span className='pl-5 cursor-pointer pr-3 lg:text-md md:text-sm text-xs'>Explore Nutrition Plans Reda </span>
             <IoMdArrowForward size="18"/>
           </div>
         </div>
