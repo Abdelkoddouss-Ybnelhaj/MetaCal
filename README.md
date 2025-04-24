@@ -1,4 +1,4 @@
-# MetaCal Web App1
+# MetaCal Web App
 
 Achieve Your Health Goals with Personalized Nutrition Plans.
 
